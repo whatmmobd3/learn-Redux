@@ -1,17 +1,18 @@
-import React from 'react';
+import React from "react";
+import "./App.css";
 
-import Create from './components/Create/Create';
-import People from './components/People/People';
+import Create from "./components/Create/Create";
+import People from "./components/People/People";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Create aa={3}/>
+        <Create />
         <People />
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;
